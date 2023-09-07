@@ -35,4 +35,60 @@
   to {
     transform: rotate(360deg);
   }
+  
 }
+/* .BeersPage {
+  margin: 0;
+background-image: url(./assets/beers.png);
+background-size: cover; */
+/* background-repeat: no-repeat;
+max-height: fit-content; */
+
+/* } */
+
+
+
+.BeerImage{
+  width: 30px;
+  height: 30px;
+  margin-right: 500px;
+}
+ 
+  img{
+    display: block;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* width: 40%; */
+  }
+
+  .BeerInfo{
+/* display: block; */
+margin-right: 1000px;
+margin-bottom: 200px;
+  }
+  .NewBeerPage{
+      border: 1px solid grey;
+      box-shadow: 0px 2px 3px grey;
+      width: 400px;
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      border-radius: 4px;
+    }
+    .NewBeerPage label {
+      width: 100px;
+      display: block;
+      margin: 0 auto;
+    }
+    .NewBeerPage input {
+      padding: 10px;
+      display: inline-block;
+      margin: 2px 0 10px;
+    }
+    
+    .NewBeerPage button[type="submit"] {
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+      border-radius: 3px;
+    }
